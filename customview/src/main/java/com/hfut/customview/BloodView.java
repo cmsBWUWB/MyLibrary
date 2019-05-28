@@ -167,11 +167,11 @@ public class BloodView extends View {
     private float shake;
     private float bloodAlpha;
 
-    public void setShake(float shake){
+    private void setShake(float shake){
         this.shake = shake;
         invalidate();
     }
-    public void setBloodAlpha(float bloodAlpha){
+    private void setBloodAlpha(float bloodAlpha){
         this.bloodAlpha = bloodAlpha;
         invalidate();
     }
